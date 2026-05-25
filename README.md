@@ -84,25 +84,44 @@ python Advanced_Packet_Sniffer.py
 
 The tool will:
 
-Automatically select the most active network interface
-Start sniffing traffic
-Print packets and alerts live
-Command Line Arguments
-Capture Specific Number of Packets
-python Advanced_Packet_Sniffer.py -c 100
-Use Specific Interface
-python Advanced_Packet_Sniffer.py -i "Intel(R) Ethernet Connection"
-Apply BPF Filter
-Only TCP traffic
-python Advanced_Packet_Sniffer.py -f tcp
-DNS traffic
-python Advanced_Packet_Sniffer.py -f "port 53"
-ICMP traffic
-python Advanced_Packet_Sniffer.py -f icmp
-Save Output PCAP
-python Advanced_Packet_Sniffer.py -o capture.pcap
-Full Example
-python Advanced_Packet_Sniffer.py -i "Intel(R) Ethernet Connection" -f tcp -c 500 -o traffic.pcap
+Automatically select the most active network interface,
+
+Start sniffing traffic,
+
+Print packets and alerts live,
+
+Command Line Arguments,
+
+Capture Specific Number of Packets,
+
+python Advanced_Packet_Sniffer.py -c 100,
+
+Use Specific Interface,
+
+python Advanced_Packet_Sniffer.py -i "Intel(R) Ethernet Connection",
+
+Apply BPF Filter,
+
+Only TCP traffic,
+
+python Advanced_Packet_Sniffer.py -f tcp,
+
+DNS traffic,
+
+python Advanced_Packet_Sniffer.py -f "port 53",
+
+ICMP traffic,
+
+python Advanced_Packet_Sniffer.py -f icmp,
+
+Save Output PCAP,
+
+python Advanced_Packet_Sniffer.py -o capture.pcap,
+
+Full Example -
+
+"python Advanced_Packet_Sniffer.py -i "Intel(R) Ethernet Connection" -f tcp -c 500 -o traffic.pcap"
+
 Tool Banner
 
 The project includes a custom ASCII startup banner:
